@@ -1,0 +1,19 @@
+MethodOverriding:
+When we have exact same methods in parent and child class we call it method overriding.
+This method gives us a lot of flexibility , for example, if we dont like a method from the parent class
+we can override it/change.
+
+Syntax:
+
+class Parent {
+
+void eat (){
+sout "Fish"
+}
+}
+class Child extend Parent {
+
+void eat (){
+sout "Chicken"
+}
+}

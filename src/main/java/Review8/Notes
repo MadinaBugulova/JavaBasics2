@@ -1,0 +1,96 @@
+3 types of variables:
+1. Local- which are declared inside a block of code are called local variables. For example, all the variables
+that we declare inside if -else statements, loop, switch case statement, methods and constructions.
+Upside:they occupy the memory for shortest period of time as soon as the block of code is done
+executing they are removed from the memory.
+Downside:they can only be used in the block of code they were created.
+
+using local variables:
+always go for local variables if possible.
+
+2.Instance Variables: the variables which are declared inside a class but outside of any
+block of code are called instance variables.
+Upside:
+       They can be accessed inside any instance method or constructor.
+Downside:
+       Occupy the memory for longer than local variables.
+       Can't be accessed inside the static methods.
+       here is why:
+       static methods are not tied to any specific instance;
+       they belong to the class and have class-level scope and lifetime.
+       When you call a static method, there may not even be an instance of
+       the class in existence. Therefore, static methods have no direct
+       access to instance-specific data.
+   When should we go with Instance variables/field/properties/attributes:
+       1)When we want to share something across all instance methods
+       2) When we are planning to create multiple objects from that class
+       and every object might have a different value for a variable.
+
+3.Static- instance variables with a static keyword are called static variables.
+
+Upside:they have the widest scope can be accessed anywhere if combined with proper access modifier.
+They can be accessed anywhere in a project.
+Downside: they can store one value at a time. if any one changes that value from anywhere if will get changed
+everywhere.They stay in the memory for longest.
+Whenever we want to share something across all methods and other classes we should go with static variables.90% of
+the time they are final and public as well so that everyone can use them but noone can modify them.
+
+Static methods:
+methods which are declared with static keyword are called static methods.
+Upside:they can be used by just writing the name of the class. Can be accessed anywhere if combined with proper
+access modifier.
+Downside:we cant override them which means we will not be able to write dynamic code or will not be able to use
+polymorphism.
+when to use static methods:
+when i want to access method from anywhere and i dont want to create an object.
+
+
+Access Modifiers:
+
+4 methods:
+
+private, default access method,
+
+Constructors:
+are special type of methods which are used to give initial values to fields/instance/properties/ttribute.
+They also help us build an object more easily form a clas..
+
+Rules:
+1.Constructors do not have any return type not even void.
+2.They must have same name as class
+3.Static is not allowed in constructors
+
+Interview questions:
+Can we have private constructors? yes
+Can we use static with a constructor? no
+Can we use final keyword with aa constructor? no
+Can i use return keyword in a constructor?  yes
+
+Why should we use constructors?
+cleaner code, secure code
+"this" keyword-
+1.we can access the instance variables with this keyword and there is a local variable also
+in the same scope
+2.we can call the constructor inside another one in the same class if we want to have the code from other class
+
+
+Inheritance:
+
+Its one of the main pillars of OOP. Inheritance allows us to build a class using another class so that we dont repeat
+code. Extends is the keyword that we use to inherit the fields and methods from another class.
+Types of inheritance:
+1. single
+2.hierarchical
+3.multi-level
+4.multiply ( not allowed in java for classes)
+5.hybrid
+
+Why multiple inheritance is not supportive in java?
+because of the diamond problem.
+Why should we use inheritance?
+1. fast and less code
+
+Rules:
+1. private members ( fields, methods) can't be used in child/derived sub class
+2. constructors are not inherited automatically we need to use super
+

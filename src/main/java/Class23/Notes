@@ -1,0 +1,11 @@
+Encapsulation:
+it is on eof the 4 fundamental OOP concepts.
+It create classes to write code and store date, use private access
+modifiers to secure the data by limiting the access, create getter setter
+methods for every field if you want others to change or see those
+fields.
+Why should we learn about Encapsulations?
+It improves the control over the data that we store in the fields
+of a class which leads us to more secure code.
+Collections framework:
+in java

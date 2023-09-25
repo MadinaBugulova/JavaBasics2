@@ -1,0 +1,5 @@
+Constructors:
+help us to build objects from classes easily.
+
+
+Interview question:when we dont create any constructor java creates for us a hidden constructor

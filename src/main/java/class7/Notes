@@ -1,0 +1,8 @@
+NestedLoops:
+A loop inside another loop. Just like nested if statements. We can nest any type of loop.
+Why do we need them?
+To solve complex problems that requires acessing nexted data.
+
+
+E7 explanation:
+we need one loop that runs 5 times

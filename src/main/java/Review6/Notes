@@ -1,0 +1,26 @@
+OOP- object oriented programming
+Its simply a way of writing code, some rules that we follow. There are other ways as well like functional, programming,
+procedural programming. There are 4 main pillars of OOP:
+1.inheritance-it will help u to reuse the code of a different class
+2.polymorphism-many funds( the code will become dynamic), it will be able to act differently
+3.abstraction-when we dont have a complete knowledge about something, we apply partial code
+4.encapsulation-to protect the data
+Why should we learn OOP:
+1. code re-usability
+2. its easier to write large amounts of code
+3. sharing code with others become easier
+4. security of the code is increased
+5. changing code become easier
+Object:
+Every physical thing is an object ( something we can touch and see ). We can easily represent these objects
+inside our computers by telling a computer how an object looks like and how it behaves.
+
+Class:
+A class is like a design/map/blueprint that we use to create objects.
+
+String class:
+Is used to store and manipulate text based data. Most of the information inside computers is processed in this form.
+String is most widely used class in all java.
+Creating objects from String class.
+
+

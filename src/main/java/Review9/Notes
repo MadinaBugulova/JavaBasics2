@@ -1,0 +1,34 @@
+SuperKeyword:
+
+refers to the parent class. We can use super keyword to access variables, methods and constructors from parent class.
+
+Why should we use super keyword?
+
+1. To specifically call something from the parent class,like a variable or method
+2. We can use super() to call the constructor from the parent
+
+MethodOverloading:
+
+1. When we have same method with dif parameters its called overloading.Parameters can be dif in 3 ways:
+- we can change the count of the parameters. We can overload methods as well as constructors
+- we can also change the datatype of parameters if number of parameters are same
+- we can change the sequence if datatype and number  of parameters are same
+
+
+Why?
+
+-cleaner code, we dont have to come up with dif method names
+-reuse: same name can be reused many times
+
+
+Interview Question:
+
+Can we overload a private method? yes
+Can we overload a static method? yes
+Can we overload the main method? yes
+Can we overload a method by changing its return type?
+
+Method Overriding:
+
+when same method is present in parent as well as child class.Its called overriding
+

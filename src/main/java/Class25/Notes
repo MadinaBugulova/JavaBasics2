@@ -1,0 +1,69 @@
+Collections Framework
+
+is just tge collection of classes and interfaces which contain a lot of useful methods that we can use to store and
+manipulate large amounts of data.
+
+Why should we use Collections Framework?
+Arrays and variables are not good for storing and manipulating large amounts of data as Arrays are :
+- fixed in the size
+- there are no built-in methods in arrays
+
+When we should use Arrays are they useless now?
+
+Arrays are not useless even the arraylist is build using the arrays under the hood.
+Arrays are fast and very space efficient when we know the size of something in advance we should prefer arrays.
+
+Wrapper classes:
+
+are object types which can be treated as we treat objects, we can call methods which is not possible with
+primitives.
+
+
+ArrayList:
+the data is stored in connective memory locations. Meaning accessing this data will be easier how ever if we have to add
+something in-between later on we must shift the data.
+
+
+LinkedList:
+
+Data is not stored in consecutive memory locations meaning its going to be hard and slow to find and access the data
+as we must go through all the elements which are present before it.But adding and removing elements from
+in-between will be super easy as we just need to re-adjust the links.
+
+Interview Question:
+
+90% the operations are retrieving the stored data and 10% are adding or removing the elements
+ which datastructures we should use ArrayList or LinkedList?
+ ArraysList as it is much faster and easier to retrieve it.
+
+
+Sets:
+
+Set is an interface in collections framework. There are three main classes which implement this interface
+they are called:
+-hashset
+-linkedinHashSet
+-treeset
+
+One thing is common in all of the classes they dont allow to store duplicate data
+
+HashSet:
+
+Upside- its fast
+Downside-It does not maintain the insertion order
+
+LinkedHashSet:
+
+Upside:Maintains the insertion order
+Downside: it is slower than HashSet
+
+TreeSet:
+
+
+Upside:Keeps the data in sorted order
+Downside: Slowest of all
+
+
+
+
+
